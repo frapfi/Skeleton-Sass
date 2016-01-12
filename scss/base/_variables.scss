@@ -25,7 +25,8 @@ $container-width-larger-than-mobile: 85% !default;
 $container-width-larger-than-phablet: 80% !default;
 $total-columns: 12 !default;
 $column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
-$column-margin: 4% !default; // space between columns
+$column-offset-horizontal: 4% !default; // space between columns: horizontal
+$column-offset-vertical: 4% !default; // space between columns: vertical
 
 // Misc
 $global-radius: 4px !default;

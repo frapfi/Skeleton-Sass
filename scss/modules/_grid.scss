@@ -30,7 +30,8 @@
   }
   .column,
   .columns {
-    margin-left: $column-margin;
+    margin-left: $column-offset-horizontal;
+    margin-bottom:  $column-offset-vertical;
   }
   .column:first-child,
   .columns:first-child {
