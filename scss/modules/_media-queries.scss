@@ -23,7 +23,5 @@
 
 // Larger than Desktop HD
 // default: min-width: 1200px
-@media (#{$bp-larger-than-desktophd}) {
-	.test {font-size: 1em}
-}
+@media (#{$bp-larger-than-desktophd}) {}
 

@@ -39,7 +39,8 @@
 
   .one.column,
   .one.columns          { width: grid-column-width(1);  }
-  .two.columns          { width: grid-column-width(2);  } /* { width: 13.3333333333%; } */
+  /* { width: 13.3333333333%; } */
+  .two.columns          { width: grid-column-width(2);  }
   .three.columns        { width: grid-column-width(3);  }
   .four.columns         { width: grid-column-width(4);  }
   .five.columns         { width: grid-column-width(5);  }
@@ -53,8 +54,8 @@
 
   .one-third.column     { width: grid-column-width(4);  }
   .two-thirds.column    { width: grid-column-width(8);  }
-
-  .one-half.column      { width: grid-column-width(6);  } /* { width: 48%; } */
+   /* { width: 48%; } */
+  .one-half.column      { width: grid-column-width(6);  }
 
 
   // Offsets
