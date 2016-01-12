@@ -1,5 +1,4 @@
-// Media Queries
-//––––––––––––––––––––––––––––––––––––––––––––––––––
+/* Media Queries */
 
 // Note: The best way to structure the use of media queries is to create the queries
 // near the relevant code. For example, if you wanted to change the styles for buttons
@@ -7,16 +6,24 @@
 // there.
 
 // Larger than mobile
+// default: min-width: 400px
 @media (#{$bp-larger-than-mobile}) {}
 
 // Larger than phablet (also point when grid becomes active)
+// default: min-width: 550px
 @media (#{$bp-larger-than-phablet}) {}
 
 // Larger than tablet
+// default: min-width: 750px
 @media (#{$bp-larger-than-tablet}) {}
 
 // Larger than desktop
+// default: min-width: 1000px
 @media (#{$bp-larger-than-desktop}) {}
 
 // Larger than Desktop HD
-@media (#{$bp-larger-than-desktophd}) {}
+// default: min-width: 1200px
+@media (#{$bp-larger-than-desktophd}) {
+	.test {font-size: 1em}
+}
+
